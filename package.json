@@ -13,5 +13,14 @@
     "ejs": "^4.0.1",
     "express": "^5.2.1",
     "nodemon": "^3.1.14"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slowwshy/Curr-culo.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/slowwshy/Curr-culo/issues"
+  },
+  "homepage": "https://github.com/slowwshy/Curr-culo#readme"
 }
