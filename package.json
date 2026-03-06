@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "boostrap": "^2.0.0",
+    "bootstrap": "^5.3.8",
     "ejs": "^4.0.1",
     "express": "^5.2.1",
     "nodemon": "^3.1.14"
