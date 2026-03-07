@@ -1,5 +1,6 @@
 
 const express = require('express');
+const { link } = require('node:fs');
 const app = express();
 const port = 4141;
   const resume = {
@@ -11,10 +12,10 @@ const port = 4141;
         ability3: "eficiente e organizado/efficient and organized",
         experience: "digital game programming technician/Técnico em programção de jogos digitais",
         linksG: "https://github.com/slowwshy",
+        linkL: 'https://www.linkedin.com/in/arthur-soares-1b285b389/',
         Email: "mail.google.com/arthurtoon13@gmail.com",
         language: "english, portuguese and german"
                     };
-
 app.set('view engine', 'ejs');
 app.use(express.static("public"));
 

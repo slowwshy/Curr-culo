@@ -15,37 +15,35 @@
 <ul>
     
     <h2>Name and age/Nome e idade:</h2>
-       
+    <h6><li><%= resume.name %></li></h6>   
+    <h6><li><%= resume.age %></li></h6>
 
-    <li><%= resume.name %></li>
-    <li><%= resume.age %></li>
+    <h2>Local/Localização:</h2>
+    <h6><li><%= resume.local %></li></h6>
 
-    <h2>Local/Localização</h2>
-    <li><%= resume.local %></li>
-
-    <h2>Ability's/Habilidades: </h2>
-    <li><%= resume.ability %></li>
-    <li><%= resume.ability2 %></li>
-    <li><%= resume.ability3 %></li>
+    <h2>Ability's/Habilidades:</h2>
+    <h6><li><%= resume.ability %></li></h6>
+    <h6><li><%= resume.ability2 %></li></h6>
+    <h6><li><%= resume.ability3 %></li></h6>
 
     <h2>Experiences/experiências:</h2>
-    <li><%= resume.experience %></li>
+    <h6><li><%= resume.experience %></li></h6>
 
-    <h2>Languages/linguagens</h2>
-    <li><%= resume.language%></li>
+    <h2>Languages/linguagens:</h2>
+    <h6><li><%= resume.language%></li></h6>
     
-   <h2>My GitHub/Meu GitHub:</h2>
+   <h2>My GitHub and linkedin/Meu GitHub e meu linkedin:</h2>
+   <h6><a href="<%= resume.linkL %>" target="_blank"><li class="text-primary">https://www.linkedin.com/in/arthur-soares-1b285b389/</li></a></h6> 
+   <h6><a href="<%= resume.linksG  %>" target="_blank"><li class="text-primary">https://github.com/slowwshy</li></a></h6>
 
-    <a href="<%= resume.linksG  %>" target="_blank">https://github.com/slowwshy</a>
-    </ul>
-
-<Ul>
  <details>
     <summary><H2>My contacts/Meus Contatos</H2></summary>
-    <li>+55(61)99675-9175</li>
-    <li><%= resume.Email %></li>
+    <h6><li>+55(61)99675-9175</li></h6>
+    <h6><li><%= resume.Email %></li></h6>
  </details>
- </Ul>
+</ul>
+
+
 
    
 </body>

@@ -1,4 +1,40 @@
 body
 {
-    text-decoration: crimson;
+   background: rgb(53, 53, 53);
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1
+{
+    background-color: rgb(95, 95, 95);
+    width: 700px;
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+h2
+{
+    background-color: rgb(95, 95, 95);
+     width: 450px;
+    border-radius: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+li
+{
+    background-color: rgb(95, 95, 95);
+    width: 400px;
+    border-radius: 20px;
+    color: white;
+}
+details
+{
+    color: grey(95, 95, 95);
+}
+
+.text-primary
+{
+    color: #0000EE;
 }
